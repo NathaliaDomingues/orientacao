@@ -20,10 +20,10 @@ public class Livro {
         anoLivro = 2025 - anoPublicacao;
         System.out.println("Quantos anos tem o livro: " + anoLivro);
 
-        if (anoLivro > 2000) {
-            System.out.println("O livro é mais antigo");
-        } else {
+        if (anoLivro < anoLivro2) {
             System.out.println("O livro é mais atual");
+        } else {
+            System.out.println("O livro é mais antigo");
         }
     }
 }
