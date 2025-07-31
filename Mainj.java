@@ -12,11 +12,11 @@ public class Mainj {
         jogo.categoria = "Fantasia";
 
         jogo.exibeFichaTecnica();
-        jogo.avalia(6);
-        jogo.avalia(9);
-        jogo.avalia(10);
+        jogo.avalia(8);
+        jogo.avalia(2);
         System.out.println("Deixe sua nota:");
-        String avaliacao = scanner.nextLine();
+        int notaUsuario = scanner.nextInt();
+        jogo.avalia(notaUsuario);
         System.out.println("A média é " + jogo.media());
     }
 }
